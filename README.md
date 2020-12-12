@@ -17,7 +17,7 @@ This is partly because the index location of each string is 0. I needed to start
 entire string. I tried reassigning the index to 0 when there was a match found. I think if I approached this with the randomNumber and userInput variables as arrays or lists,
 I would have more flexibility. Since it's been hours of troubleshooting, at this point in a work environment I would go to mentor or team member for some guidance.
 
-#Functionality and edits
+# Functionality and edits
 Edits: The program is now functional, and will now have 10 attempts to check against one random generated number 4 digits in length. The first draft of this program was only
 giving the user one attempt to guess, since it was generating a random number after each attempted guess. The code has been broken into methods, and is now more loosely coupled
 code. Having the code separated in multiple methods definitely simplified the program and overall logic. For example, there are now 6 methods instead of 2 or 3. 
@@ -34,6 +34,6 @@ to loop through each character within the string, and only return true if the us
 
 Additionally, I added to the program so that after the 10 attempts were exhausted, the console disclose the random number to the user.
 
-#Overall
+# Overall
 This was a great learning experience, and it helped me to realize I need continual practice in deciphering prompts and then breaking them down. 
 
